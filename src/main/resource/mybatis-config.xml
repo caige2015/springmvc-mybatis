@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "classpath:org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
+<configuration>
+  <settings>
+    <setting name="cacheEnabled" value="false" />
+    <setting name="lazyLoadingEnabled" value="true" />
+    <setting name="aggressiveLazyLoading" value="true" />
+    <setting name="defaultStatementTimeout" value="10" />
+  </settings>
+  <typeAliases>
+    <!-- <typeAlias alias="UserTO" type="com.song.caige.module.UserTO" /> -->
+    <package name="com.song.caige.module"/>
+  </typeAliases>
+</configuration>
